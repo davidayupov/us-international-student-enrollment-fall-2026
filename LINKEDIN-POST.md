@@ -1,35 +1,19 @@
-# LinkedIn Post (ready to publish)
+International student enrollment in the U.S. fell again this fall, and new students are falling faster than the total.
 
-Copy the text below into a LinkedIn post. Pair it with `figures/fig1_enrollment_changes.png` and link the repository.
+IIE's Fall 2026 Snapshot (809 institutions): total −9% (including OPT), new enrollments −15%, graduate −15%, undergraduate −3%. Intake is falling about 1.7 times as fast as the total, so the aggregate likely keeps falling unless intake recovers.
 
----
+Why? The survey asks institutions, not students. Of campuses reporting fewer new students, 88% cite the visa process, 70% travel restrictions, 60% students choosing other countries, 45% cost. These are attributions, not effect sizes.
 
-International students are not just "choosing the U.S. less" — they are responding rationally to a cascade of regulatory risk. I spent the past weeks digging through the primary sources, and the picture is sharper than the headlines suggest. Here is what the data actually show.
+The policy record, by legal status as of 17 November:
+• 2025 SEVIS terminations: mostly restored after litigation.
+• Four-year fixed admission rule: set aside on 16 November, on statutory grounds as reported. Appeal possible; not checked against the docket.
+• $70,000/$30,000 OPT fee: a proposal only.
+• CPT narrowing: in force, under challenge.
 
-The numbers (IIE Fall 2026 Snapshot, 809 institutions):
-- Total international students: −9%
-- New enrollments: −15%
-- Graduate students: −15% (vs. −3% undergraduate)
-- OPT participants: −6%
+NAFSA puts 2025/26 at $39.9B and about 309,000 jobs, down $3.0B and 46,000 jobs. NAFSA is also a plaintiff in the fixed-period case; its 2026/27 figures are projections.
 
-This follows a 2.7% national decline in 2025/26 — right after four straight years of growth that peaked at a record 1,177,766 students in 2024/25.
+My reading: the pattern is consistent with a response to regulatory risk, not yet evidence of one. Full recovery next year wouldn't settle it either — several explanations predict growth. And the comparison that would help, long graduate programs against short ones at the same institutions, isn't in the public numbers: the Snapshot reports by level, not by program length, and its institution data are aggregated. That one has to be asked for.
 
-Why it's happening — in the institutions' own words: 88% of campuses losing new students cite the visa process, 70% cite travel restrictions, and 60% report losing students to other countries.
+Prepared with AI assistance; I am responsible for the content.
 
-The policy backdrop, verified against the Federal Register and court records:
-- In 2025, ICE terminated ~5,000 F-1 students' SEVIS records; 65+ lawsuits followed, and most records were restored retroactively.
-- A DHS rule replacing "duration of status" with fixed 4-year admission periods was blocked one day before taking effect — and vacated outright on November 16 as "arbitrary and capricious."
-- A proposed rule would make universities pay $70,000 per student they recommend for OPT (still only a proposal — comments closed November 9 with 3,473 filed).
-- A new ICE interpretation limits curricular practical training to internships required of every student in a program — it remains in effect while a university-led lawsuit proceeds.
-
-The common thread: within 18 months, every stage of the international student lifecycle — entry, retention, in-study work, post-graduation work — took a regulatory hit. When intake falls 1.5x faster than the total stock, deeper aggregate declines are already baked in for future years.
-
-The economics are not abstract: international students contributed $39.9 billion and supported ~309,000 U.S. jobs in 2025/26 (NAFSA), and the 2026/27 projection drops another ~$2.4 billion.
-
-I've published the full research paper — with datasets, reproducible figures, and 26 primary-source citations — on GitHub:
-
-https://github.com/davidayupov/us-international-student-enrollment-fall-2026
-
-Key takeaway for policymakers: the question is not whether each measure survives in court. It's whether the U.S. keeps signaling that the rules of international study can change abruptly, retroactively, and without notice. Reputationally, that signal is already priced in.
-
-#highered #internationalstudents #immigration #policyresearch #F1visa #OPT
+#highered #internationalstudents #immigration #F1visa

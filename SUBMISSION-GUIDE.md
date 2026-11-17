@@ -1,64 +1,54 @@
-# Submission Guide
+# Submission guide
 
-This document maps the paper to realistic publication venues and provides a cover-letter template.
+Status of every legal statement in the manuscript: **November 17, 2026**. Anything dated later changes Section 4, Table 3 and Section 9.
 
-## Before submitting
+## Before you submit, in this order
 
-1. **Fill in the author block** in `paper/policy-research-paper.md` (name, affiliation, email, ORCID), then rebuild the PDF/DOCX with `python3 analysis/build_pdf.py`.
-2. **Use the prebuilt manuscript versions**: `paper/policy-research-paper.pdf` (camera-ready, 20 pages, figures embedded) and `paper/policy-research-paper.docx` (for submission portals that require Word). Most venues accept either at initial submission; the bibliography in `paper/references.bib` imports cleanly into Zotero, Mendeley, and LaTeX (BibTeX) workflows.
-3. **Regenerate figures** at the venue's required resolution: edit `analysis/make_figures.py` (`figure.dpi`) and rerun.
-4. **Verify links** — court and regulatory statuses cited here are current as of November 17, 2026. Update Section 4 if new rulings issue (especially the CPT preliminary-injunction decision, which was under advisement as of writing, and any appeal of the November 16 vacatur).
+1. **Verify the flagged items** in `data-sources.md`, "What to verify before submission". Item 1 (the November 16 order) is the one a referee is most likely to check, because the abstract now says the court rested on statutory grounds.
+2. **Author block and metadata.** The first page carries name and affiliation. Add email and ORCID in the journal's own form rather than in the PDF, so the published file does not carry contact details you would rather keep private.
+3. **Journal-specific formatting.** Word counts, reference style, and any required structure. The manuscript is deliberately conservative: A4, Times New Roman / Cambria in the DOCX, numbered sections, author–date citations, no endnotes.
+4. **AI-use form.** Many publishers now require a separate declaration beyond the paragraph in "Declarations". Check the policy before uploading, and keep the wording consistent with it.
+5. **Rebuild if you change the text.** Edit `ARTICLE.md`, then run `python build.py` and `python make_figures.py`.
 
-## Venue shortlist
+## Realistic route
 
-### Peer-reviewed journals (strong fit)
+The paper is a descriptive policy analysis: one survey wave, no causal identification, source base weighted toward agency documents, court reporting and sector organisations. In that form it is unlikely to clear peer review at a general-interest journal. The sequence that works:
 
-| Venue | Why it fits | Notes |
+1. **Working paper with a DOI** — SSRN, OSF Preprints or EdArXiv. This fixes priority and gives you a citable version. Post it before any social-media announcement.
+2. **Sector outlets** — University World News, The PIE News, Inside Higher Ed, NAFSA's Trends & Insights. These take analytically framed pieces built on an underlying report, and they reach the audience that actually uses the numbers.
+3. **Peer-reviewed journal**, after adding literature and, ideally, a second data point. A research note or policy brief is a more credible target than a full article.
+
+## Journals, by fit
+
+| Journal | Fit | What it would need |
 |---|---|---|
-| **Journal of Studies in International Education** (Sage) | The flagship journal for exactly this topic; publishes policy analyses of enrollment trends | Refereed; expect 3–6 months |
-| **Journal of International Students** | Fast-turnaround, open-access-friendly, publishes data-driven policy briefs | Strong fit for time-sensitive analysis |
-| **International Migration** / **Migration Studies** (Oxford) | The policy-uncertainty framing fits their economics-of-migration angle | Reframe abstract toward migration economics |
-| **Policy Futures in Education** | Accepts timely policy commentary with evidence | Faster than flagship journals |
-| **Higher Education Quarterly** | UK-based, but covers international recruitment and finance | Emphasize the economic section |
+| Journal of Studies in International Education (Sage) | Strongest topical fit | Literature review and a theoretical frame; engagement with the student-mobility scholarship |
+| Journal of International Students (open access) | Good fit for a research note | Tighter scope; note the article-processing charge |
+| International Migration (Wiley / IOM) | Migration-economics framing | Strengthen Section 6; treat the economic mechanism formally |
+| Migration Studies (Oxford) | Migration-studies framing | Different publisher and audience; do not merge with the row above |
+| Higher Education Quarterly | Finance and international recruitment | Expand the economic section, add institutional-finance data |
+| Policy Futures in Education | Policy commentary | Check whether it takes non-empirical policy pieces |
 
-### Working-paper / preprint routes (fast, strengthens the record)
+Review times are not stated here because they could not be verified. Check each journal's own page.
 
-- **SSRN** (International Education, Immigration Law, or Higher Education eJournals) — post as a working paper same-day; DOI issued.
-- **OSF preprints** — free, DOI, versioned.
-- **EdArXiv** — education-focused preprint server.
+## Anticipated referees' objections, and where the manuscript answers them
 
-### Practitioner outlets (fast publication, wide readership)
+- **"This is advocacy."** Section 4 separates court outcomes from party self-reports, and the NAFSA conflict is disclosed four times: abstract, 4.2, 6.1, 9.
+- **"809 institutions is not national data."** Section 2, Section 7.2 and obstacle two in Section 8.
+- **"Where is the causal identification?"** Section 7.2 states the limits and Section 8 names the data and the two designs. The paper claims consistency, never an effect.
+- **"Why one snapshot?"** Section 3.2 (intake falling faster than the stock) and Section 8's timing obstacle.
+- **"The November ruling changes your story."** Section 7.1 states explicitly what the reading does *not* predict — that intake recovers in full once a rule is struck down, and an appeal is still possible — and Section 8 lists the segment-level data a program-length comparison would need, while stating that neither a differential nor a uniform recovery would settle the question.
+- **"Where is your literature?"** Section 7.1 now cites Dixit and Pindyck (1994), Bloom (2009) and Gulen and Ion (2016) for irreversible investment under uncertainty. That is a thin frame, not a literature review, and the guide above says so: a sector outlet or a research note is a more realistic first target than a general-interest journal.
+- **"Why call it regulatory risk rather than policy uncertainty?"** Because uncertainty is not measured here; what the data can support is a reading about perceived risk, and the title no longer claims more.
+- **"Several numbers in §5 and §4 are not in your data files."** Correct: they come from the Snapshot summary or from reporting. Section 2 names the categories; `data-sources.md` marks each one with the author's own verification status, which you should re-check yourself rather than take on trust.
 
-- **University World News** / **The PIE News** — accept well-sourced analytical op-eds based on the paper.
-- **NAFSA Trends & Insights** — perspective pieces from researchers.
-- **Inside Higher Ed / Chronicle of Higher Education** — op-ed submissions.
+## Files to upload
 
-### Suggested strategy
+- `manuscript.pdf` (review copy) and `manuscript.docx` (if the portal wants an editable file)
+- `figures/fig1_enrollment_changes.png`, `fig2_reasons_for_decline.png`, `fig3_economic_impact.png` at 300 dpi
+- `data/*.csv`, `make_figures.py`, `data-sources.md` as supplementary material, if the journal accepts a data package
+- `submission/cover-letter.md`, filled in
 
-Post the SSRN preprint first (protects the timestamp and makes the work citable), then submit to the Journal of Studies in International Education or the Journal of International Students. Publish the LinkedIn summary (see `LINKEDIN-POST.md`) simultaneously — practitioner reach and academic citation are complements, not substitutes.
+## Do not upload
 
-## Cover-letter template
-
-> Dear Editors,
->
-> I am pleased to submit my manuscript, "From Growth to Decline: Policy Uncertainty and International Student Enrollment in U.S. Higher Education — Evidence from the Fall 2026 IIE Snapshot," for consideration as a research article in [Journal].
->
-> The paper provides, to my knowledge, the first integrated analysis of the fall 2026 enrollment data released by the Institute of International Education (a 9% total decline and 15% decline in new enrollments across 809 institutions) alongside the four federal regulatory developments that shaped the 2025–2026 environment for F-1 students: the SEVIS record terminations, the fixed-period-of-admission rule (vacated by a federal court on November 16, 2026), the proposed $70,000 OPT fee, and the contested narrowing of Curricular Practical Training.
->
-> The contribution is threefold. First, a precise descriptive reading of the newest enrollment evidence with explicit attention to what each indicator measures. Second, a careful classification of each policy measure by its actual legal status — final, enjoined, vacated, or proposed — which public discussion routinely conflates. Third, an analytical framework (lifecycle-spanning policy uncertainty) that integrates enrollment data, institutional attributions, and economic projections while being explicit about the inferential limits of each evidence type.
->
-> The analysis is fully reproducible: all datasets and figure-generation code are publicly archived at [repository URL].
->
-> The manuscript is not under consideration elsewhere, and I have no conflicts of interest to disclose.
->
-> Sincerely,
-> [Name], [Affiliation]
-
-## Reviewer-anticipation notes
-
-Likely reviewer questions and where the paper already addresses them:
-
-- *"Is this just advocacy?"* — Sections 4 and 7.2 explicitly separate court outcomes of record from party self-reports, and classify measures by legal status without endorsing any side.
-- *"Survey of 809 institutions isn't national data."* — Section 2 and 7.2, point 2.
-- *"Where's the causal identification?"* — Section 7.2 lists the four identification obstacles and Section 8 proposes the data linkage (applications → offers → enrollment → visa outcomes) that would support causal claims.
-- *"Why should we care about one year's snapshot?"* — Sections 3.2 (intake falling faster than stock implies compounding) and 6 (quantified economic stakes).
+Anything containing chat transcripts, draft versions with placeholder text, or the strings "release v1.0.0" and repository links that do not resolve. If the repository release does not exist yet, leave the repository out of the cover letter entirely — the manuscript no longer promises one.

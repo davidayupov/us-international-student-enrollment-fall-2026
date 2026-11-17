@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
-title: "From Growth to Decline: Policy Uncertainty and International Student Enrollment in U.S. Higher Education - Evidence from the Fall 2026 IIE Snapshot"
+title: "From Growth to Decline: International Student Enrollment and Regulatory Risk in U.S. Higher Education - A Descriptive Account from the Fall 2026 IIE Snapshot"
 type: report
 authors:
   - given-names: David
@@ -17,7 +17,8 @@ keywords:
   - Optional Practical Training
   - SEVIS
   - immigration regulation
-  - policy uncertainty
+  - regulatory risk
+  - student mobility
 date-released: "2026-11-17"
 license: CC-BY-4.0
-version: "1.0.0"
+version: "1.1.0"

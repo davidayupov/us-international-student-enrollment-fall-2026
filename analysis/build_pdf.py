@@ -22,8 +22,8 @@ HTML = ROOT / "paper" / "_paper_build.html"
 PDF = ROOT / "paper" / "policy-research-paper.pdf"
 DOCX = ROOT / "paper" / "policy-research-paper.docx"
 
-TITLE = ("From Growth to Decline: Policy Uncertainty and International "
-         "Student Enrollment in U.S. Higher Education")
+TITLE = ("From Growth to Decline: International Student Enrollment and "
+         "Regulatory Risk in U.S. Higher Education")
 
 CSS_TEXT = """
 @page {
