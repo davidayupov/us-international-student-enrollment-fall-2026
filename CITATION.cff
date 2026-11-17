@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "From Growth to Decline: Policy Uncertainty and International Student Enrollment in U.S. Higher Education - Evidence from the Fall 2026 IIE Snapshot"
+type: report
+authors:
+  - given-names: David
+    family-names: Ayupov
+    email: davidaupov294@gmail.com
+doi: 10.5281/zenodo.XXXXXXX
+identifiers:
+  - type: url
+    value: "https://github.com/davidayupov/us-international-student-enrollment-fall-2026"
+keywords:
+  - international students
+  - F-1 visas
+  - higher education policy
+  - Optional Practical Training
+  - SEVIS
+  - immigration regulation
+  - policy uncertainty
+date-released: "2026-11-17"
+license: CC-BY-4.0
+version: "1.0.0"
