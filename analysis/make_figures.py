@@ -123,7 +123,8 @@ ax2.tick_params(axis="y", colors=GRAY)
 ax2.spines["right"].set_visible(True)
 ax2.spines["right"].set_color(GRAY)
 ax.annotate("2026/27:\nprojection", xy=(3, dollars[-1]),
-            xytext=(1.9, dollars[-1] - 2.6), fontsize=9, color=RED,
+            xytext=(2.12, dollars[-1] - 3.1), fontsize=9, color=RED,
+            ha="left", va="center",
             arrowprops=dict(arrowstyle="->", color=RED, lw=1))
 ax.tick_params(axis="x", rotation=20)
 

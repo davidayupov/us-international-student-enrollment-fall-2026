@@ -50,6 +50,8 @@ The Fall 2026 Snapshot reports the following year-over-year changes across its 8
 | Graduate students | **−15%** |
 | OPT participants | **−6%** |
 
+![**Figure 1.** International student enrollment change by category, fall 2026 (IIE Fall 2026 Snapshot, 809 institutions). Reproducible via `analysis/make_figures.py`.](../figures/fig1_enrollment_changes.png)
+
 Three clarifications are essential for correct interpretation.
 
 **First, the total measure includes OPT participants.** The 9% decline covers both students in classes and those on post-completion practical training. It is therefore imprecise to describe it as a decline in students "in classrooms."
@@ -130,6 +132,8 @@ Among the institutions in the Snapshot that reported declines in new internation
 | Students enrolling in other countries | 60% |
 | Costs | 45% |
 
+![**Figure 2.** Contributing factors cited by institutions reporting declines in new international student enrollments (IIE Fall 2026 Snapshot).](../figures/fig2_reasons_for_decline.png)
+
 These figures require careful handling. The 88% figure means that 88% of the institutions experiencing new-enrollment declines identified the visa process as a contributing factor — not that visas explain 88% of the decline. Institutions could cite multiple factors. Nor are these the results of surveying the students who declined to enroll; they are institutional assessments of a population whose decision margins are unobserved.
 
 Still, the pattern is informative. The two most-cited factors — visa processing and travel restrictions — are precisely the mechanisms through which the 2025 SEVIS episode and the broader enforcement posture would be expected to operate. And the third factor, enrollment in other countries, is the competitive margin: 60% of declining institutions report losing students to other destinations, consistent with the 95% of all responding institutions who said international students would likely consider other countries if OPT options were limited ([IIE, 2026](https://opendoorsdata.org/wp-content/uploads/2026/11/IIE_Fall-Snapshot_2026_Key-Findings_2026.pdf)).
@@ -145,6 +149,8 @@ There is also a notable tension: institutions prioritize STEM recruitment (91%; 
 ### 6.1 Measured contributions and measured losses
 
 NAFSA and JB International estimate that international students contributed $42.9 billion and supported 355,736 jobs in 2024/25, falling to $39.9 billion and 309,409 jobs in 2025/26 — a 7% ($3 billion) decline in spending and over 46,000 jobs lost year-over-year ([NAFSA, 2026](https://www.nafsa.org/about/about-nafsa/international-students-contributed-399-billion-us-economy-2025-2026-fall-2026)). For 2026/27, based on the Fall 2026 Snapshot enrollment figures, NAFSA projects a further decline to $37.5 billion and 278,208 jobs ([NAFSA Fall 2026 analysis](https://www.nafsa.org/sites/default/files/media/document/Fall%202026%20International%20Student%20Enrollment%20Snapshot%20Economic%20Impact%20Overview%20FINAL_0.pdf)); press coverage of the release frames the projected loss at roughly $2.4 billion for the year ([CNBC, 2026](https://www.cnbc.com/2026/11/16/international-student-enrollment-decline-us-colleges.html)). NAFSA's methodology estimates one U.S. job created or supported for every three international students, derived from spending in higher education, accommodation, dining, retail, transportation, telecommunications, and health insurance ([NAFSA methodology](https://www.nafsa.org/sites/default/files/media/document/NAFSA_Methodology_Economic_Value_2025_FINAL%5B1%5D.pdf)).
+
+![**Figure 3.** Economic footprint of international students in the U.S.: enrollment, economic contribution, and jobs supported, with NAFSA's 2026/27 projection.](../figures/fig3_economic_impact.png)
 
 ### 6.2 Scenario estimates versus realized losses
 

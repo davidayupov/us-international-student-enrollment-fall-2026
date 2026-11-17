@@ -4,8 +4,8 @@ This document maps the paper to realistic publication venues and provides a cove
 
 ## Before submitting
 
-1. **Fill in the author block** in `paper/policy-research-paper.md` (name, affiliation, email, ORCID).
-2. **Convert the paper** to the target venue's template. Most venues accept a Markdown/Word manuscript at initial submission; the bibliography in `paper/references.bib` imports cleanly into Zotero, Mendeley, and LaTeX (BibTeX) workflows.
+1. **Fill in the author block** in `paper/policy-research-paper.md` (name, affiliation, email, ORCID), then rebuild the PDF/DOCX with `python3 analysis/build_pdf.py`.
+2. **Use the prebuilt manuscript versions**: `paper/policy-research-paper.pdf` (camera-ready, 20 pages, figures embedded) and `paper/policy-research-paper.docx` (for submission portals that require Word). Most venues accept either at initial submission; the bibliography in `paper/references.bib` imports cleanly into Zotero, Mendeley, and LaTeX (BibTeX) workflows.
 3. **Regenerate figures** at the venue's required resolution: edit `analysis/make_figures.py` (`figure.dpi`) and rerun.
 4. **Verify links** — court and regulatory statuses cited here are current as of November 17, 2026. Update Section 4 if new rulings issue (especially the CPT preliminary-injunction decision, which was under advisement as of writing, and any appeal of the November 16 vacatur).
 

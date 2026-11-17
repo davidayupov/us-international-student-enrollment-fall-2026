@@ -12,10 +12,13 @@ A complete, reproducible policy research package analyzing the sharp decline of 
 
 | Path | Contents |
 |---|---|
-| [`paper/policy-research-paper.md`](paper/policy-research-paper.md) | Full research paper (abstract, JEL codes, 8 sections, 26 primary references) |
+| [`paper/policy-research-paper.md`](paper/policy-research-paper.md) | Full research paper (abstract, JEL codes, 8 sections, 26 primary references, embedded figures) |
+| [`paper/policy-research-paper.pdf`](paper/policy-research-paper.pdf) | Camera-ready PDF (20 pages, typeset with academic styling) |
+| [`paper/policy-research-paper.docx`](paper/policy-research-paper.docx) | Word version for journal submission portals |
 | [`paper/references.bib`](paper/references.bib) | BibTeX bibliography for journal submission workflows |
 | [`data/`](data/) | Machine-readable datasets (CSV) with full provenance |
 | [`analysis/make_figures.py`](analysis/make_figures.py) | One-command reproduction of all figures |
+| [`analysis/build_pdf.py`](analysis/build_pdf.py) | One-command rebuild of the PDF and DOCX from the Markdown source |
 | [`figures/`](figures/) | Publication-ready charts (PNG, 200 dpi) |
 | [`SUBMISSION-GUIDE.md`](SUBMISSION-GUIDE.md) | Target journals, working-paper venues, and a cover-letter template |
 | [`LINKEDIN-POST.md`](LINKEDIN-POST.md) | Ready-to-publish LinkedIn summary post |
@@ -56,6 +59,15 @@ python3 analysis/make_figures.py
 ```
 
 All three figures regenerate into `figures/` from the CSVs in `data/`. No other dependencies.
+
+## Rebuilding the PDF / DOCX
+
+```bash
+pip install weasyprint   # plus a local pandoc installation
+python3 analysis/build_pdf.py
+```
+
+Rebuilds `paper/policy-research-paper.pdf` (typeset from the Markdown source with embedded figures, table of contents, and academic styling) and `paper/policy-research-paper.docx`.
 
 ## Data provenance
 
