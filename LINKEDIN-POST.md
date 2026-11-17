@@ -6,7 +6,7 @@ Why? The survey asks institutions, not students. Of campuses reporting fewer new
 
 The policy record, by legal status as of 17 November:
 • 2025 SEVIS terminations: mostly restored after litigation.
-• Four-year fixed admission rule: set aside on 16 November, on statutory grounds as reported. Appeal possible; not checked against the docket.
+• Four-year fixed admission rule: vacated on 16 November — arbitrary and capricious, and contrary to statutory authority. The government's appeal of the September injunction is pending in the First Circuit.
 • $70,000/$30,000 OPT fee: a proposal only.
 • CPT narrowing: in force, under challenge.
 

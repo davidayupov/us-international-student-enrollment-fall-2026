@@ -27,8 +27,8 @@ Correct as to the formal publication date, and §7.2 now says the proposal canno
 **"Then why discuss it at all?"**
 Because the paper's object is the sequence a prospective student faces, not the marginal effect of each rule. §4.5 makes that explicit: what the four measures share is timing and direction, not legal effect.
 
-**"The rule was just set aside. Doesn't that undercut your argument?"**
-It constrains it, and §7.1 says so before a referee can. If what students price is the durability of the rules rather than the burden of any one rule, then intake can fall while a rule is announced without being in force, and need not recover when it is set aside, as long as the authority behind it remains available and the other measures are unchanged. An appeal remains possible, so the order is not a clean removal of risk. §7.1 states the implication — the effect of a measure should be largest where it bore on the decision the student was actually making — as a prediction of the reading, not as a test the data can run.
+**"The rule was just vacated. Doesn't that undercut your argument?"**
+It constrains it, and §7.1 says so before a referee can. If what students price is the durability of the rules rather than the burden of any one rule, then intake can fall while a rule is announced without being in force, and need not recover when it is vacated, as long as the authority behind it remains available and the other measures are unchanged. The government's appeal of the September injunction is pending in the First Circuit, and an appeal of the November 16 judgment is available to it, so the order is not a clean removal of risk. §7.1 states the implication — the effect of a measure should be largest where it bore on the decision the student was actually making — as a prediction of the reading, not as a test the data can run.
 
 **"Then it isn't a test: both a recovery and its absence fit your story."**
 Correct, and §8 says so outright: a uniform recovery would not refute the reading, and a differential one would not establish it. §8 therefore does not present the comparison as a test. It lists the segment-level data that would be needed — enrollment by program length, at the level of the individual institution, for the same institutions across consecutive years — and states what the comparison could and could not discriminate between if those data existed. The public Snapshot series cannot run it: "degree level" there means undergraduate, graduate and OPT, which does not separate doctoral and research master's study from one-year and non-degree study.
@@ -36,16 +36,16 @@ Correct, and §8 says so outright: a uniform recovery would not refute the readi
 ## On the legal account
 
 **"Where is the order you are quoting?"**
-The November 16 order could not be obtained in full; the quotations are quoted from Bloomberg Law's report, and both the sentence in §4.2 and the note in `data-sources.md` say so. The claim that the ruling rests on statutory grounds is attributed to that report, not asserted as a reading of the document.
+Both court documents are public and were read in full: the September 14 memorandum and order and the November 16 order, both posted by the plaintiffs at presidentsalliance.org and cited in the reference list. The quotations in §4.2 are from the orders themselves, verbatim.
 
 **"Are the two cases the same?"**
 No. 1:26-cv-13799 is the fixed-period rule; 1:26-cv-14520 is the CPT broadcast messages. Table 3 and the reference list keep them separate, and the manuscript says explicitly that they are different cases.
 
-**"Is 'set aside' the right term?"**
-It is the term the report uses for the November order, and it distinguishes that order from the September interim relief, which postponed the effective date without setting the rule aside. §4.2 explains the progression rather than flattening it, and it does not say the rule was "vacated as arbitrary and capricious", which the report does not support.
+**"Is 'vacated' the right term?"**
+It is the term the November 16 order itself uses: the rule is "VACATED pursuant to the Administrative Procedure Act, 5 U.S.C. § 706." The paper distinguishes that order from the September 14 interim relief, which postponed the effective date nationwide under § 705 and declined vacatur without prejudice. §4.2 explains the progression rather than flattening it.
 
 **"What about an appeal, and about the status of duration of status?"**
-The manuscript says only that an appeal would lie to the First Circuit and that the author is not aware of one having been taken, without having checked the docket. It also avoids claiming that duration of status is "in force nationwide"; it states the narrower fact that the rule was set aside before it took effect, so the framework the rule would have replaced has not been displaced.
+The government appealed the September 14 injunction to the First Circuit on September 30, 2026 (No. 26-2112) and asked that court on November 3 to hold the appeal in abeyance; the November 16 order states the appeal remained pending and did not divest the district court of jurisdiction. No appeal of the final judgment appears on the public record as of November 17, 2026. The paper also avoids claiming that duration of status is "in force nationwide"; it states the narrower fact that the rule was vacated before it took effect, so the framework the rule would have replaced has not been displaced.
 
 ## On the economics and the source
 
@@ -61,4 +61,4 @@ It is an input assumption — one job per three students — not an estimated pa
 Because the paper does not measure uncertainty. It observes enrollment and reads institutional attributions. "Regulatory risk" describes what the data can carry; "policy uncertainty" would imply a measured dispersion the survey does not supply.
 
 **"What is new here?"**
-Not a new estimate. Three things: a reading of the fall 2026 indicators that keeps flow, stock and OPT apart; a status classification of the four measures that separates what is in force from what is proposed or set aside; and a statement of the regulatory-risk reading as a set of conditional implications, with the data requirements they would need and an explicit account of why the published series cannot assess them.
+Not a new estimate. Three things: a reading of the fall 2026 indicators that keeps flow, stock and OPT apart; a status classification of the four measures that separates what is in force from what is proposed or vacated; and a statement of the regulatory-risk reading as a set of conditional implications, with the data requirements they would need and an explicit account of why the published series cannot assess them.

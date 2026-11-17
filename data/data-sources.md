@@ -2,7 +2,7 @@
 
 All figures in the manuscript are traceable to the sources below. Values in `data/*.csv` were transcribed by hand from these documents. Rights in the underlying data belong to IIE, NAFSA and the other publishers named here; the package licence does not override them, and any reuse should carry the attribution given below.
 
-Data current as of **November 17, 2026**.
+Data current as of **November 17, 2026**. On that date a second verification pass was made against primary documents: the two court orders of September 14 and November 16, 2026, the IIE Fall 2026 Snapshot key-findings PDF (read in full), and the Open Doors 2026 press release. Items previously marked [secondary] that were closed by that pass are marked **[checked]** below, with the document that closed them.
 
 Two status markers are used throughout. **They record what the author of this note did, not an independent audit.** Each one should be re-derived by whoever submits the paper:
 
@@ -15,13 +15,14 @@ Where a marker and the text disagree, the text is right and the marker is stale.
 
 IIE, *Fall 2026 Snapshot on International Student Enrollment: Key Findings* (November 2026). https://opendoorsdata.org/wp-content/uploads/2026/11/IIE_Fall-Snapshot_2026_Key-Findings_2026.pdf
 
-Every figure in this section comes from this one PDF. The distinction drawn below is not between documents but between which parts of it were re-read carefully: the headline changes were, the institutional-response shares were not.
+Every figure in this section comes from this one PDF, which was read in full on November 17, 2026.
 
 - Survey of **809 institutions**, conducted by IIE with ten partner higher-education associations; academic year 2026/27; a subset of the nearly 3,000 institutions surveyed for Open Doors. **[checked]**
 - Year-over-year changes as reported (rounded by IIE): total including OPT −9%; new enrollments −15%; undergraduate −3%; graduate −15%; OPT −6%. **[checked]**
-- Reasons for decline (Table 4, Figure 2): visa process 88%, travel restrictions 70%, students enrolling in other countries 60%, costs 45%. Base is institutions reporting a decline in new enrollments; multiple answers allowed, so shares do not sum to 100%. **[secondary — same PDF, not re-read line by line]**
-- The size of the base (n) is not reported in the document used here. The manuscript says so in the Figure 2 note and does not describe the base as "809 institutions".
-- Section 5 also uses: 95% (students likely to consider other countries if OPT were limited), 81% (recruitment a priority), 91% / 99% (STEM priority), and the recruitment-target country lists. **[secondary — same PDF, not re-read line by line]** The text flags them as coming from the summary.
+- Reasons for decline (Table 4, Figure 2): visa process 88%, travel restrictions 70%, students enrolling in other countries 60%, costs 45%. Base is institutions reporting a decline in new enrollments; multiple answers allowed, so shares do not sum to 100%. **[checked]**
+- The size of the base (n) is not reported in the key-findings document. The manuscript says so in the Figure 2 note and does not describe the base as "809 institutions". **[checked — the document was read in full and contains no n for this base]**
+- Section 5 also uses: 95% (students likely to consider other countries if OPT were limited), 81% (recruitment a priority), 91% / 99% (STEM priority), and the recruitment-target country lists (undergraduate: Vietnam, India, Brazil; graduate: India, Vietnam, Nepal). **[checked]** The text cites them to the key-findings document.
+- The key-findings document reports change by level — undergraduate, graduate, OPT — and contains no breakdown by program length or degree type. Section 8 rests on this absence. **[checked]**
 
 ## `data/open_doors_totals.csv`
 
@@ -30,12 +31,13 @@ Every figure in this section comes from this one PDF. The distinction drawn belo
 | 2022/23 | 1,057,018 | +12% | Open Doors 2023 |
 | 2023/24 | 1,126,690 | +7% | Open Doors 2024 |
 | 2024/25 | 1,177,766 | +5% | Open Doors 2025 (*Fast Facts*) |
-| 2025/26 | 1,146,163 | −2.7% | Open Doors 2026, reported by Higher Ed Dive, 16.11.2026 |
+| 2025/26 | 1,146,163 | −2.7% | Open Doors 2026 press release (IIE), 16.11.2026 |
 
 - The series shows **three** consecutive years of growth (2022/23–2024/25), not four. **[checked]**
 - The 2023/24 change is +7% in the paper (the rounded figure IIE publishes) and 6.6% in the CSV (the precise value). Neither is an error; do not mix them.
-- The 2025/26 total comes from Open Doors 2026 as reported by Higher Ed Dive. **[secondary]** Check against the Open Doors 2026 release before submission.
-- **The −17% new-enrollment fall in 2025/26** is from the IIE Fall 2025 Snapshot. A question was raised in review whether the correct figure is −17% or −18%, and it has not been resolved. The manuscript therefore describes the fall as "double-digit", gives 17% as the figure in the Fall 2025 Snapshot, and says the two have not been reconciled. **[secondary]**
+- The 2025/26 total and change come from the Open Doors 2026 press release. The release rounds the fall to "3 percent"; the precise change from 1,177,766 to 1,146,163 is −2.7%, which is what the paper and the CSV use. **[checked]** https://opendoorsdata.org/wp-content/uploads/2026/11/Open-Doors-Data-Press-Release_2026.pdf
+- **The new-enrollment fall in 2025/26** is 17% as first reported in the IIE Fall 2025 Snapshot and 18% (to 228,123) in the final Open Doors 2026 count. The manuscript now gives both, attributing each to its source; the discrepancy is an early-estimate versus final-count difference, not an unresolved conflict. **[checked]**
+- Other Open Doors 2026 figures verified in the same press release and available if a referee asks: graduate enrollment 423,078 (−13%, driven by master's −22% and doctoral +3%); undergraduate 356,165 (−0.3%); OPT 335,785 (+14% in 2025/26). **[checked]**
 - **The "approximately 6% of total U.S. higher education enrollment"** claim has been removed from Section 1. It could not be matched to a specific year: the source previously seen gave 6% for 2023/24, not 2024/25.
 
 ## `data/nafsa_economic_impact.csv`
@@ -60,11 +62,11 @@ Every figure in this section comes from this one PDF. The distinction drawn belo
 |---|---|---|
 | Fixed-period final rule, 17.07.2026 | **[checked]** publishing date and rule title | https://studyinthestates.dhs.gov/2026/07/dhs-publishes-final-rule-establishing-a-fixed-time-period-of-admission-and-an-extension-of ; FAQ: https://studyinthestates.dhs.gov/final-rule-establishing-a-fixed-time-period-of-admission-and-an-extension-of-stay-procedure-faq |
 | Four-year cap, extension procedure | **[checked]** | same |
-| Grace period cut from 60 to 30 days | **[secondary]** | agency FAQ as summarised; not re-read line by line |
-| September 14, 2026 order, §705, "no rational connection" | **[secondary]** | BAL Immigration News |
-| November 16, 2026 order, statutory ground, less burdensome alternatives, quotations | **[secondary — the order itself was not obtained]** | Kreighbaum, Bloomberg Law |
-| Appeal not taken | **[unverified]** | The manuscript says the author is not aware of an appeal and that it has not been checked against the docket. Do not upgrade this to a positive statement without checking PACER. |
-| "Duration of status remains in force" | **[inference]** | The manuscript states only that the rule was set aside before it took effect, and avoids "nationwide". |
+| Grace period cut from 60 to 30 days | **[checked]** | the September 14 opinion describes the "reduction from a 60 to 30-day departure period" |
+| September 14, 2026 order, §705, "no rational connection" | **[checked]** | opinion read in full; exact wording is "DHS failed to show that there is a rational connection between the Final Rule and its purported objectives of preventing fraud and furthering national security"; relief was nationwide; vacatur denied without prejudice. https://www.presidentsalliance.org/wp-content/uploads/2026/09/9.14.26-opinion-in-DS-case.pdf |
+| November 16, 2026 order, vacatur, statutory ground, less burdensome alternatives, quotations | **[checked]** | order obtained and read in full; rule VACATED under APA §706 as "arbitrary, capricious, an abuse of discretion, and otherwise not in accordance with law"; independent statutory ground under 8 U.S.C. § 1101(a)(15)(F) ("contrary to statutory authority, as well as arbitrary and capricious, and may be vacated on that basis as well"); all quotations in Section 4.2 verified verbatim. https://www.presidentsalliance.org/wp-content/uploads/2026/11/2026-11-16-District-Judge-dckt-73_0.pdf |
+| Appeal status | **[checked as of 17.11.2026]** | the government appealed the September 14 injunction to the First Circuit on 30.09.2026 (No. 26-2112) and moved on 03.11.2026 to hold the appeal in abeyance; the November 16 order states the appeal "remains pending as of this writing" and that it did not divest the district court of jurisdiction. No appeal of the November 16 judgment appears on the public record as of 17.11.2026; the docket itself was not independently checked on PACER. |
+| "Duration of status remains in force" | **[inference]** | The rule was vacated before its effective date, so the prior framework was never replaced. The manuscript states only this and does not use "nationwide". |
 | OPT fee NPRM, 91 FR 64566, 08.10.2026, $70,000 / $30,000 | **[checked]** | Federal Register |
 | Comment period closed 09.11.2026 | **[secondary]** | not confirmed on regulations.gov |
 | Comment count 3,473 | **[unverified — removed from the text]** | |
@@ -80,21 +82,21 @@ Two cases, not one: **1:26-cv-13799** is the fixed-period rule; **1:26-cv-14520*
 
 ## What to verify before submission
 
-Ranked by how much a referee is likely to care.
+Ranked by how much a referee is likely to care. Items 1–5 were closed by the verification pass of November 17, 2026 (see the markers above); they are listed here with their resolution so the history is visible.
 
-1. **The November 16 order** (PACER, docket 1:26-cv-13799). Confirm the statutory holding, replace the three quotations, check whether an appeal has been filed, and update Section 4.2 and Section 9. If the statutory ground turns out to be a remark inside the arbitrary-and-capricious analysis rather than an independent holding, change "on statutory grounds" in the abstract, Table 3 and Section 9.
-2. **The Open Doors 2026 total** of 1,146,163 and −2.7%, currently via Higher Ed Dive.
-3. **The 17% / 18% question** for new enrollments in 2025/26. If one of the two is right, replace the hedging sentence in Section 3.2 with the correct figure.
-4. **Snapshot summary statistics**: 88/70/60/45, 95, 81, 91, 99 and the country lists. All are in the same key-findings PDF as the headline changes; ten minutes with the document closes them, and they can then be re-marked as checked.
-5. **Whether the Snapshot or any IIE product reports enrollment by program length** (or by doctoral versus master's versus non-degree). Section 8 rests on the claim that the public release does not, and on the consequence that the program-length comparison must be requested from institutions. If IIE does publish such a breakdown, §8 needs a sentence saying where.
-6. **Comment period close date** (09.11) and **CPT hearing date** (06.11).
-7. **Grace period 60 → 30 days** in the final rule.
-8. **NAFSA methodology, 2025 version** — read it for the OPT treatment and the job multiplier rather than relying on the 2022 version.
-9. **The Chamber letter title** — the page heading says $70,000/$100,000 while the rule sets $30,000 for a subsequent recommendation. Decide whether to cite the page as titled or use the neutral title now in the reference list.
+1. **The November 16 order** — resolved. The order was obtained and read in full; the statutory holding is express and independent ("contrary to statutory authority, as well as arbitrary and capricious, and may be vacated on that basis as well"); all quotations in Section 4.2 are from the order itself; the abstract, Table 3 and Section 9 were updated accordingly.
+2. **The Open Doors 2026 total** — resolved. 1,146,163 and −2.7% confirmed against the IIE press release of November 16, 2026 (which rounds the fall to 3 percent).
+3. **The 17% / 18% question** — resolved. 17% is the Fall 2025 Snapshot estimate; 18% (to 228,123) is the final Open Doors 2026 count. The manuscript gives both with sources.
+4. **Snapshot summary statistics** — resolved. 88/70/60/45, 95, 81, 91, 99 and the country lists verified against the key-findings PDF.
+5. **Program-length breakdown** — resolved. The key-findings PDF, read in full, contains no breakdown by program length or degree type; Section 8's claim stands.
+6. **Comment period close date** (09.11) and **CPT hearing date** (06.11). Still from secondary sources; both are plausible but unconfirmed against regulations.gov and the CPT docket.
+7. **NAFSA methodology, 2025 version** — read it for the OPT treatment and the job multiplier rather than relying on the 2022 version.
+8. **The Chamber letter title** — the page heading says $70,000/$100,000 while the rule sets $30,000 for a subsequent recommendation. Decide whether to cite the page as titled or use the neutral title now in the reference list.
+9. **PACER docket check** — the appeal status above is taken from the November 16 order and contemporaneous reporting, not from an independent docket search. If the paper is submitted after further weeks pass, re-check whether the November 16 judgment has been appealed.
 
 ## Caveats that travel with the data
 
 - The Snapshot is a preliminary institutional survey, not a final national count. No weights, response history or confidence intervals are published in the key-findings document.
-- The Snapshot reports change by level — undergraduate, graduate, OPT — and does not separate doctoral and research master's study from one-year master's and non-degree study. Section 8 depends on this: the program-length comparison it describes cannot be built from the public series and has to be requested.
+- The Snapshot reports change by level — undergraduate, graduate, OPT — and, read in full, contains no breakdown by program length or degree type. Section 8 depends on this: the program-length comparison it describes cannot be built from the public series and has to be requested.
 - NAFSA's 2026/27 figures are projections by an organisation that is a party to one of the cases discussed, and its estimates have been revised between releases.
 - Claims by party organisations about the harm of a rule are self-reports and are treated as such.

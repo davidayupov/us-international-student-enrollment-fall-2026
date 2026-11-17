@@ -4,11 +4,11 @@ Status of every legal statement in the manuscript: **November 17, 2026**. Anythi
 
 ## Before you submit, in this order
 
-1. **Verify the flagged items** in `data-sources.md`, "What to verify before submission". Item 1 (the November 16 order) is the one a referee is most likely to check, because the abstract now says the court rested on statutory grounds.
+1. **Verify the flagged items** in `data-sources.md`, "What to verify before submission". Items 1–5 (the November 16 order, the Open Doors 2026 total, the 17%/18% question, the Snapshot summary statistics and the program-length question) were closed against the primary documents on November 17, 2026. What remains is small-bore: the comment-period close date, the CPT hearing date, the NAFSA 2025 methodology document and the Chamber letter title. If submission happens weeks later, re-check whether the November 16 judgment has been appealed.
 2. **Author block and metadata.** The first page carries name and affiliation. Add email and ORCID in the journal's own form rather than in the PDF, so the published file does not carry contact details you would rather keep private.
 3. **Journal-specific formatting.** Word counts, reference style, and any required structure. The manuscript is deliberately conservative: A4, Times New Roman / Cambria in the DOCX, numbered sections, author–date citations, no endnotes.
 4. **AI-use form.** Many publishers now require a separate declaration beyond the paragraph in "Declarations". Check the policy before uploading, and keep the wording consistent with it.
-5. **Rebuild if you change the text.** Edit `ARTICLE.md`, then run `python build.py` and `python make_figures.py`.
+5. **Rebuild if you change the text.** Edit `paper/policy-research-paper.md`, then rebuild the PDF and DOCX and re-run `python analysis/make_figures.py`.
 
 ## Realistic route
 
@@ -40,7 +40,7 @@ Review times are not stated here because they could not be verified. Check each 
 - **"The November ruling changes your story."** Section 7.1 states explicitly what the reading does *not* predict — that intake recovers in full once a rule is struck down, and an appeal is still possible — and Section 8 lists the segment-level data a program-length comparison would need, while stating that neither a differential nor a uniform recovery would settle the question.
 - **"Where is your literature?"** Section 7.1 now cites Dixit and Pindyck (1994), Bloom (2009) and Gulen and Ion (2016) for irreversible investment under uncertainty. That is a thin frame, not a literature review, and the guide above says so: a sector outlet or a research note is a more realistic first target than a general-interest journal.
 - **"Why call it regulatory risk rather than policy uncertainty?"** Because uncertainty is not measured here; what the data can support is a reading about perceived risk, and the title no longer claims more.
-- **"Several numbers in §5 and §4 are not in your data files."** Correct: they come from the Snapshot summary or from reporting. Section 2 names the categories; `data-sources.md` marks each one with the author's own verification status, which you should re-check yourself rather than take on trust.
+- **"Several numbers in §5 and §4 are not in your data files."** Correct: they come from reporting on agency documents. Section 2 names the categories; `data-sources.md` marks each one with the author's own verification status, which you should re-check yourself rather than take on trust. Everything traceable to a primary document — the two court orders, the Snapshot key findings, the Open Doors 2026 release, the Federal Register notice — has been read in full and verified verbatim.
 
 ## Files to upload
 

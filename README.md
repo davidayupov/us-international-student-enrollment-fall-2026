@@ -12,14 +12,14 @@ A complete, reproducible policy research package analyzing the decline of intern
 
 | Path | Contents |
 |---|---|
-| [`paper/policy-research-paper.md`](paper/policy-research-paper.md) | Full research paper (abstract, JEL codes, 9 sections, 26 references, embedded figures) |
-| [`paper/policy-research-paper.pdf`](paper/policy-research-paper.pdf) | Camera-ready PDF (16 pages) |
+| [`paper/policy-research-paper.md`](paper/policy-research-paper.md) | Full research paper (abstract, JEL codes, 9 sections, 29 references, embedded figures) |
+| [`paper/policy-research-paper.pdf`](paper/policy-research-paper.pdf) | Camera-ready PDF (17 pages) |
 | [`paper/policy-research-paper.docx`](paper/policy-research-paper.docx) | Word version for journal submission portals |
 | [`paper/references.bib`](paper/references.bib) | BibTeX bibliography for journal submission workflows |
 | [`data/`](data/) | Machine-readable datasets (CSV) with full provenance |
 | [`data/data-sources.md`](data/data-sources.md) | Provenance of every figure in the paper, with per-item verification status |
 | [`analysis/make_figures.py`](analysis/make_figures.py) | One-command reproduction of all figures |
-| [`analysis/build_pdf.py`](analysis/build_pdf.py) | One-command rebuild of the PDF and DOCX from the Markdown source |
+| [`analysis/build.py`](analysis/build.py) | One-command rebuild of the PDF and DOCX from the Markdown source (pure Python: reportlab + python-docx) |
 | [`figures/`](figures/) | Publication-ready charts (PNG, 300 dpi) |
 | [`assets/fonts/`](assets/fonts/) | Bundled DejaVu fonts, so figures reproduce identically on any machine |
 | [`SUBMISSION-GUIDE.md`](SUBMISSION-GUIDE.md) | Target journals, working-paper venues, and anticipated referee objections |
@@ -45,7 +45,7 @@ This follows a 2.7% decline in 2025/26 (1,177,766 → 1,146,163 students), rever
 | Measure | Status |
 |---|---|
 | 2025 SEVIS terminations (~5,000 F-1 students) | Largely reversed after 65+ lawsuits; limits of the termination power not settled |
-| Fixed 4-year admission periods (final rule, Jul 17, 2026) | **Vacated** by D. Mass. (Nov 16, 2026) under the APA; appeal possible |
+| Fixed 4-year admission periods (final rule, Jul 17, 2026) | **Vacated** by D. Mass. (Nov 16, 2026) as arbitrary and capricious and contrary to statutory authority; government's appeal of the September injunction pending in the First Circuit |
 | OPT fees ($70,000 / $30,000 per student) | Proposed rule only (91 FR 64566); comments closed Nov 9, 2026 |
 | CPT narrowing (SEVP Broadcast Messages, Aug 2026) | **In effect**; preliminary-injunction hearing held Nov 6, 2026 |
 
@@ -67,8 +67,8 @@ All three figures regenerate into `figures/` from the CSVs in `data/`, using the
 ## Rebuilding the PDF / DOCX
 
 ```bash
-pip install weasyprint   # plus a local pandoc installation
-python3 analysis/build_pdf.py
+pip install reportlab python-docx
+python3 analysis/build.py
 ```
 
 Rebuilds `paper/policy-research-paper.pdf` (typeset from the Markdown source with embedded figures and academic styling) and `paper/policy-research-paper.docx`.
